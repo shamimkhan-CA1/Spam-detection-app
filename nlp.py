@@ -37,7 +37,7 @@ model = pickle.load(open('model.pkl','rb'))
 
 st.title("Text Fraud Detector using Machine Learning Model by Shamim Khan")
 
-input_text = st.text_area("Enter your area:")
+input_text = st.text_area("Enter your message:")
 
 
 if st.button('Predict'):
